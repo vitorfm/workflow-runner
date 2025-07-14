@@ -28,5 +28,4 @@ jobs:
 
       - name: Rodar testes com pytest
         run: |
-          source venv/bin/activate
           PYTHONPATH=$(pwd) pytest -v
