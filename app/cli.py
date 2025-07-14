@@ -1,5 +1,5 @@
 import click
-from app.commands.runner import WorkflowRunner
+from app.runner import WorkflowRunner
 
 @click.group()
 def cli():
